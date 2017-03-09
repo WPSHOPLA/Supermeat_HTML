@@ -1,0 +1,457 @@
+/*Home page*/
+
+div#home{
+  background-color: white;
+  min-height: 1000px;
+}
+
+.home-title{
+	width: 100%;
+	margin-top: 16px;
+}
+
+h1#click_end{
+	font-size: 80px;
+	line-height: 96px;
+}
+
+h2#which_side{
+	margin-top: 21px;
+	font-size:40px;
+	line-height: 32.8px;
+}
+
+div#bg1{
+  margin-top:0px;
+}
+
+.ani-div{
+  cursor: pointer;
+  overflow: auto;
+}
+
+.ani-div:hover .hd{
+    animation-name: home_gray_change;
+    animation-duration: 200ms;
+    animation-fill-mode: forwards;
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.hd{
+   width: 715px;
+   height: 780px;
+	display: inline-block;
+	background-size: 679px 741px;
+	background-repeat: no-repeat;
+  background-position: 0px 39px;
+	position: relative;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+
+
+@-webkit-keyframes home_gray_change {
+  0%   { 
+  	filter: grayscale(100%);
+  	-webkit-filter: grayscale(100%);
+  }
+  50%  { 
+  	filter: grayscale(50%);
+  	-webkit-filter: grayscale(50%);
+   }
+  100% { 
+  	filter: grayscale(0%);
+  	-webkit-filter: grayscale(0%);
+  	/*background-size: 715px 780px;*/
+    background-size: 100% 100%;
+  	background-position: 0px 0px;
+   }
+}
+
+@-moz-keyframes home_gray_change {
+
+  0%	{ 
+  	filter: grayscale(100%);
+  	-webkit-filter: grayscale(100%);
+  }
+  50%  { 
+  	filter: grayscale(50%);
+  	-webkit-filter: grayscale(50%);
+   }
+  100% { 
+  	filter: grayscale(0%);
+  	-webkit-filter: grayscale(0%);
+  	background-size: 100% 100%;
+  	background-position: 0px 0px;
+   }
+}
+
+@-o-keyframes home_gray_change {
+  0%   { 
+  	filter: grayscale(100%);
+  	-webkit-filter: grayscale(100%);
+  }
+  50%  { 
+  	filter: grayscale(50%);
+  	-webkit-filter: grayscale(50%);
+   }
+  100% { 
+  	filter: grayscale(0%);
+  	-webkit-filter: grayscale(0%);
+  	background-size: 100% 100%;
+  	background-position: 0px 0px;
+   }
+}
+
+@keyframes home_gray_change {
+  0%   { 
+  	filter: grayscale(100%);
+  	-webkit-filter: grayscale(100%);
+  }
+  50%  { 
+  	filter: grayscale(50%);
+  	-webkit-filter: grayscale(50%);
+   }
+  100% { 
+  	filter: grayscale(0%);
+  	-webkit-filter: grayscale(0%);
+  	background-size: 100% 100%;
+  	background-position: 0px 0px;
+   }
+}
+
+
+div#lhd{
+	background-image: url(../image/icon/home_meat.jpg);
+	float:left;
+}
+
+div#rhd{
+	background-image: url(../image/icon/home_chicken.jpg);
+	float:right;
+}
+
+
+button.home-btn{
+	margin-top:16.9%;
+  position: absolute;
+}
+
+button#home_meat_bt{
+	left:70%;
+}
+
+button#home_ani_bt{
+	right: 70%;
+
+}
+
+
+
+/*Meat is delicious*/
+
+
+div#meat1{
+  background: url(../image/pbg/meat01.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+
+div#meat2{
+  background: url(../image/pbg/meat02.jpg) center center no-repeat  fixed;
+  background-size: cover;
+}
+
+div#meat3{
+  background: url(../image/pbg/meat03.jpg) center center no-repeat  fixed;
+  background-size: cover;
+}
+
+div#stop1{
+  background: url(../image/pbg/stop01.jpg) center center no-repeat  fixed;
+  background-size: cover;
+}
+
+div#stop2{
+  background: url(../image/pbg/stop02.jpg) center center no-repeat  fixed;
+  background-size: cover;
+}
+
+div#stop3{
+  background: url(../image/pbg/stop03.jpg) center center no-repeat  fixed;
+  background-size: cover;
+}
+
+div#team{
+  background: url(../image/pbg/team.jpg) center center no-repeat  fixed;
+  background-size: cover;
+}
+
+div#faq{
+  background: url(../image/pbg/faq.jpg) center center no-repeat  fixed;
+  background-size: cover;
+}
+
+div#help{
+  background: url(../image/pbg/help.jpg) center center no-repeat  fixed;
+  background-size: cover;
+}
+
+
+.container{
+  margin-left: 11.4%;
+  padding-top: 6%;
+  padding-left:0;
+  padding-right:0;
+}
+
+.content{
+  width: 65%;
+}
+
+.content2{ 
+  width: 100%;
+}
+
+
+
+/*team page*/
+div#team .container{
+  margin: 0 auto;
+}
+
+.team-photo{
+  margin:10% 4%;
+}
+
+p.pname{
+  font-size: 26px;
+  line-height: 31.2px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+p.ptitle{
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+}
+
+div.team-row{
+  margin-bottom: 60px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+div.img-outer{
+  width: 153px;
+  height: 153px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  background:transparent;
+}
+
+img.phimg{
+  border: 1px solid #ffffff;
+  background-size: cover; 
+  width: 100%;
+  height: 100%;
+}
+
+img#ph1{
+  background: url(../image/team/koby_b.jpg) center center no-repeat;
+}
+
+img#ph2{
+  background: url(../image/team/ido.jpg) center center no-repeat;
+}
+img#ph3{
+  background: url(../image/team/koby_n.jpg) center center no-repeat;
+}
+img#ph4{
+  background: url(../image/team/daniel.jpg) center center no-repeat;
+}
+img#ph5{
+  background: url(../image/team/hovav.jpg) center center no-repeat;
+}
+img#ph6{
+  background: url(../image/team/theodora.jpg) center center no-repeat;
+}
+img#ph7{
+  background: url(../image/team/ronen.jpg) center center no-repeat;
+}
+img#ph8{
+  background: url(../image/team/shir.jpg) center center no-repeat;
+}
+
+
+
+/*faq*/
+
+.content-faq{
+  margin-top: 6%;
+  margin-left: 10%;
+
+}
+
+.faqtxt{
+  width:90%;
+  max-width: 900px;
+  margin-top: 101px;
+  margin-left: 3px;
+}
+
+.faqq{
+  width: 100%;
+  border-color: transparent;
+  background: transparent;
+  margin-bottom: 25px;
+  border: 0px;
+  outline: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.panel-default>.panel-heading{
+  background-color: transparent;
+  border-color: transparent;
+  padding: 0;
+}
+
+.panel-body{
+  padding: 0;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  opacity: 1;
+}
+
+.faqtitle{
+  width: 100%;
+}
+
+.panel-title{
+  cursor: pointer;
+}
+
+div.faqtitle button, div.faqtitle p{
+  display: initial;
+}
+
+p.faqtt{
+  font-size: 22px;
+  color:#802d58;
+  line-height: 26.4px;
+  margin-left: 7px;
+}
+
+.panel-title:hover p.faqtt{
+  text-decoration: underline;
+}
+
+p.faqtt:hover {
+  /*text-shadow: 0 0 .25px #333, 0 0 .25px #333;*/
+  /* use the line below if you want a more intense effect */
+  /*text-shadow: 0 0 .9px #333, 0 0 .9px #333, 0 0 .9px #333;*/
+}
+
+
+button.faqbt{
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+button.faqbt-collapse.collapsed{
+  background-image: url(../image/icon/arrow_side.png);
+  background-size: cover;
+}
+
+button.faqbt-collapse{
+  background-image: url(../image/icon/arrow_down.png);
+  background-size: cover;
+}
+
+
+.faqcon{
+  margin-left: 25px;
+}
+
+div.faqbodypart{
+  margin-bottom: 25px;
+}
+
+div.faqbodypart b{
+  font-weight: bolder;
+}
+
+div.faqbodypart:last-child{
+  margin-bottom: 0;
+}
+
+
+/*help*/
+
+div.content3{
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 85%;
+}
+
+div.content3 p.cont4{
+  margin-top: 41px;
+}
+
+
+div.content3 form.form1{
+  margin-top: 75px;
+}
+
+/*footer*/
+footer{
+  overflow:hidden;
+  position: relative;
+  margin-top: -80px;
+  width: 100%;
+  height: 80px;
+  background-color: #3d3d51;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+div.copyright{
+  margin-top: 32px;
+  margin-left: 40px;
+  margin-bottom:31px;
+  float: left;
+  font-size: 18px;
+  text-align: left;
+  color: #ffffff;
+  line-height: 21.6px;
+}
+
+div.flt{
+  margin-top: 23px;
+  margin-right: 40px;
+  margin-bottom:22px;
+  float: right;
+}
+
+img.fltimg{
+  width: 160px;
+  height: 28px;
+}
+
+
+iframe#typeform{
+  width: 100%;
+  height: 100%;
+
+}

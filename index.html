@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Supermeat</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="./favicon.png" type="image/x-icon">
+
+	<link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+
+	<link rel="stylesheet" href="./css/common.css" type="text/css">
+	<link rel="stylesheet" href="./css/page.css" type="text/css">
+	<link rel="stylesheet" href="./css/responsive.css" type="text/css">
+	
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.stellar.js"></script>
+
+	<!-- Google Analytics -->
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','./js/analytic.js','ga');
+
+	ga('create', 'UA­60912044­8', 'auto');
+	ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','./js/fbevents.js');
+    
+        fbq('init', '1731189523771131');
+        fbq('track', "PageView");
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1731189523771131&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+</head>
+
+<body>
+ <div class="site-content" id="home">
+ 	<div class="logo logo_p"></div>
+
+	<div class="home-title color1">
+ 		<div class="container-fluid">
+	 		<h1 id="click_end" class="ubuntu text-center">Click to end the war</h1>
+	 		<h2 id="which_side" class="sspl text-center">Which side are you on?</h2>
+	 	</div>
+	</div>
+
+	<div class="container-fluid" id="bg1">
+		<div class="row">
+			<div class="col-md-6 ani-div">
+				<div id="lhd" class="hd">
+					<button id="home_meat_bt" class="mybtn home-btn">Meat is delicious!</button>
+				</div>
+			</div>
+			<div class="col-md-6 ani-div">
+				<div id="rhd" class="hd">
+					<button id="home_ani_bt" class="mybtn  home-btn">Stop animal suffering!</button>
+				</div>
+			</div>
+		</div>
+	</div>
+ </div>
+	
+<script>
+$(document).ready(function(){
+    $("#lhd").parent().hover(function(){ 
+    	$("#home_meat_bt").css("background-color", "#44c2d1");
+    });
+    $("#lhd").parent().mouseleave(function(){ $("#home_meat_bt").css("background-color", "#3d3d51");});
+
+    $("#rhd").parent().hover(function(){ 
+    	$("#home_ani_bt").css("background-color", "#54054b");
+    });
+    $("#rhd").parent().mouseleave(function(){ $("#home_ani_bt").css("background-color", "#3d3d51");});
+
+    $("#home_meat_bt").hover(function(){ $(this).css("background-color", "#3aa5b2");});
+    $("#home_ani_bt").hover(function(){ $(this).css("background-color", "#42033e");});
+
+    $("#lhd").click(function(){ 
+    	window.location="meat.html";
+    });
+
+    $("#rhd").click(function(){ 
+    	window.location="stop.html";
+    });
+
+});
+
+</script>
+
+</body>
+
+</html>

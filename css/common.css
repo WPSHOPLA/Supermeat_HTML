@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Source Sans Pro Black';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Black_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Black Italic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-BlackIt_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Bold_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Bold Italic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-BoldIt_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro ExtraLight';
+  src: url('../fonts/SourceSansPro/SourceSansPro-ExtraLight_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro ExtraLight Italic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-ExtraLightIt_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Italic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-It_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Light';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Light_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Light Italic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-LightIt_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Regular_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Semibold';
+  src: url('../fonts/SourceSansPro/SourceSansPro-Semibold_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Semibold Italic';
+  src: url('../fonts/SourceSansPro/SourceSansPro-SemiboldIt_0.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  src: url('../fonts/Ubuntu/Ubuntu-B_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold Italic';
+  src: url('../fonts/Ubuntu/Ubuntu-BI_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Condensed';
+  src: url('../fonts/Ubuntu/Ubuntu-C_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url('../fonts/Ubuntu/Ubuntu-L_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Light Italic';
+  src: url('../fonts/Ubuntu/Ubuntu-LI_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: url('../fonts/Ubuntu/Ubuntu-M_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Medium Italic';
+  src: url('../fonts/Ubuntu/Ubuntu-MI_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu/Ubuntu-R_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Italic';
+  src: url('../fonts/Ubuntu/Ubuntu-RI_0.ttf') format('truetype');
+}
+
+
+
+html, body{
+	height:100%;
+	width: 100%;
+	margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+a{
+	display: block;
+	height: 100%;
+}
+
+div.site-content{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover; 
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	overflow:hidden;
+	height: auto;
+}
+
+
+/*font*/
+h1, h2, p, button{
+	opacity: 1;
+	text-align: left;
+	opacity: 1;
+	margin:0;
+	display:block;
+}
+
+.col-md-6{
+	padding: 0;
+}
+
+.sspl{
+	font-family: 'Source Sans Pro Light';
+}
+
+.ssps{
+	font-family: 'Source Sans Pro Semibold';
+}
+
+
+.ubuntu{
+	font-family: 'Ubuntu';
+}
+
+.ubuntu-m{
+	font-family: 'Ubuntu';
+}
+
+p.cont1{
+  font-size: 35px;
+  line-height: 84px;
+  margin-bottom: 19px;
+}
+
+h1.cont2{
+  font-size: 120px;
+  line-height: 110px;
+  margin-left: 45px;
+}
+
+
+p.cont3{
+	font-size:24px;
+	line-height: 28.8px;
+	margin-top:32px;
+	margin-bottom:54px;
+}
+
+p.cont4{
+	font-size:40px;
+	line-height: 48px;
+}
+
+p.cont5{
+	font-size:14px;
+	line-height: 16.8px;
+	visibility: hidden;
+}
+
+h1.cont6{
+	font-size: 80px;
+	line-height: 96px;
+	margin-bottom:9px;
+}
+
+
+p.cont7{
+	font-size: 40px;
+	line-height: 48px;
+}
+
+
+
+form.form1{
+	margin-top:25px;
+	width: 50%;
+}
+
+.form1 > input, .form1 > button
+{
+	display: block;
+	width: 317px;
+}
+
+input[type=submit].form-bt{
+	font-size: 20px;
+	line-height: 100%;
+	opacity: 1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	height: 56px;
+	outline: none;
+    border: 0;
+}
+
+.form1> input.dyn-input{
+	font-size: 20px;
+	line-height: 24px;
+	opacity: 0.7;
+	text-align: left;
+	outline:none;
+	border: 0;
+	border-bottom:1px solid #ffffff;
+	margin-bottom: 20px;
+	background:transparent;
+}
+
+div.rr input.dyn-input{
+	border-bottom:1px solid #3d3d51;
+}
+
+div.rr input.dyn-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #3d3d51;
+    opacity:  0.7;
+}
+
+div.rr input.dyn-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #3d3d51;
+   opacity:  0.7;
+}
+
+div.rr input.dyn-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #3d3d51;
+   opacity:  0.7;
+}
+
+div.rr input.dyn-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #3d3d51;
+   opacity:  0.7;
+}
+
+
+
+.logo{
+	width: 92px;
+	height: 102px;
+	margin-top:25px;
+	margin-left: 53px;
+}
+
+.logo_y{
+	background-image: url(../image/icon/logo_yellow.png);
+	background-size: cover;
+}
+
+.logo_p{
+	background-image: url(../image/icon/logo_purple.png);
+	background-size: cover;
+}
+
+
+/*color*/
+.colorw{
+	color: #ffffff;
+}
+
+.color1{
+	color: #3d3d51;
+}
+
+.color2{
+	color:#44c2d1;
+}
+
+.color3{
+	color:#54054b;
+}
+
+
+/*button*/
+button.mybtn{
+	width: 44%;
+	min-height: 62px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: 'Source Sans Pro Light';
+	font-size: 30px;
+	line-height: 32.8px;
+	background-color: #3d3d51;
+	color: white;
+	outline:none;
+	border: 0px;
+}
+button.mybtn:active{
+	top: 1px;
+}
+
+input[type='submit']:active{
+	position: relative;
+	top: 1px;
+}
+
+.btnb{
+	background-color: #44c2d1;
+}
+
+
+.btnb:hover{
+	background-color: #3aa5b2;
+}
+
+
+.btnp{
+	background-color: #54054b;
+	padding-top: 20px;
+	padding-bottom:13px;
+}
+
+.btnp:hover{
+	background-color: #42033e;
+}
+
+button.change_btn{
+	font-family: 'Source Sans Pro';
+	font-size:24px;
+	text-align: left;
+	line-height: 28.8px;
+}

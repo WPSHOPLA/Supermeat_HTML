@@ -1,0 +1,1216 @@
+/*desk*/
+@media (min-width: 1921px){
+
+  div.site-content{
+    min-height: 1500px;
+  }
+}
+
+
+@media (max-width: 1920px){
+
+  div.site-content{
+    min-height: 1450px;
+  }
+}
+
+
+@media (max-width: 1700px){
+  
+  div.site-content{
+    min-height: 1350px;
+  }
+
+}
+
+@media (max-width: 1550px){
+
+  div.site-content{
+    min-height: 1320px;
+  }
+
+  
+  div.hd{
+    width: 588px;
+    height: 642px;
+    background-size: 544px 594px;
+  }
+  
+  button#home_meat_bt {
+  }
+
+  button#home_ani_bt {
+  }
+
+   
+  button.mybtn {
+    width: 50%;
+  }
+
+}
+
+
+
+@media (max-width: 1200px){
+
+  div.site-content{
+    min-height: 1000px;
+  }
+
+  div.hd{
+    width: 454px;
+    height: 495px;
+    background-size: 414px 454px;
+  }
+  
+}
+
+
+
+/*mobile*/
+
+@media (max-width: 1080px){
+  .container{
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .content{
+    width: 100%;
+  }
+
+  div.site-content{
+    min-height: 1920px;
+  }
+
+
+  .logo{
+    width: 135px;
+    height: 150px;
+    margin-top: 65px;
+    margin-left: 65px;
+  }
+
+  
+
+  .logo_y{
+    background-image: url(../image/icon/logo_yellow_mobile.png);
+    background-size: cover;
+  }
+
+  .logo_p{
+    background-image: url(../image/icon/logo_purple_mobile.png);
+    background-size: cover;
+  }
+
+  div#meat1{
+    background: url(../image/mbg/meat01.jpg) center center no-repeat fixed;
+    background-size: cover;
+  }
+
+  div#meat2{
+    background: url(../image/mbg/meat02.jpg) center center no-repeat  fixed;
+    background-size: cover;
+  }
+
+  div#meat3{
+    background: url(../image/mbg/meat03.jpg) center center no-repeat  fixed;
+    background-size: cover;
+  }
+
+  div#stop1{
+    background: url(../image/mbg/stop01.jpg) center center no-repeat  fixed;
+    background-size: cover;
+  }
+
+  div#stop2{
+    background: url(../image/mbg/stop02.jpg) center center no-repeat  fixed;
+    background-size: cover;
+  }
+
+  div#stop3{
+    background: url(../image/mbg/stop03.jpg) center center no-repeat  fixed;
+    background-size: cover;
+  }
+
+  div#team{
+    background: url(../image/mbg/team.jpg) center center no-repeat  fixed;
+    background-size: cover;
+    height: auto;
+  }
+
+  div.team-row > div {
+    margin-bottom: 20px;
+    display: inline-table;
+  }
+
+  div#faq{
+    background: url(../image/mbg/faq.jpg) center center no-repeat  fixed;
+    background-size: cover;
+  }
+
+  div#help{
+    background: url(../image/mbg/help.jpg) center center no-repeat  fixed;
+    background-size: cover;
+  }
+
+
+  button.faqbt-collapse.collapsed{
+    background-image: url(../image/icon/arrow_side_mobile.png);
+    background-size: cover;
+  }
+
+  button.faqbt-collapse{
+    background-image: url(../image/icon/arrow_down_mobile.png);
+    background-size: cover;
+  }
+
+
+
+ 
+
+  .color2{
+    color:#44bdcc;
+  }
+
+
+
+   p.cont1{
+    font-size: 50px;
+    line-height: 54.9px;
+    margin-bottom: 58px;
+  }
+
+  h1.cont2{
+    font-size: 160px;
+    line-height: 150.5px;
+    margin-left: 35px;
+  }
+
+
+  p.cont3{
+    font-size:50px;
+    line-height: 60px;
+    margin-top:58px;
+    margin-bottom:84px;
+  }
+
+  p.cont4{
+    font-size:60px;
+    line-height: 72px;
+  }
+
+  p.cont5{
+    font-size:14px;
+    line-height: 16.8px;
+    visibility: hidden;
+  }
+
+  h1.cont6{
+    font-size: 100px;
+    line-height: 120px;
+    margin-bottom:73px;
+  }
+
+
+  p.cont7{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+
+   form.form1{
+    margin-top:25px;
+    width: 100%;
+  }
+
+  .form1 > input, .form1 > button {
+    width: 100%;
+  }
+
+
+  .form1> input.dyn-input{
+    font-size: 60px;
+    line-height: 72px;
+    opacity: 0.7;
+    text-align: left;
+    outline:none;
+    border: 0;
+    border-bottom:1px solid #ffffff;
+    padding-bottom: 13px;
+    margin-bottom: 60px;
+    background:transparent;
+  }
+
+  input[type=submit].form-bt{
+    font-size: 70px;
+    line-height: 84%;
+    opacity: 1;
+    padding-top: 55px;
+    padding-bottom: 46px;
+    text-align: center;
+    height: 167px;
+    outline: none;
+    border: 0;
+  }
+
+  div.team-row{
+    margin-bottom: 40px;
+  }
+  
+  div#faq{
+    height: auto;
+    min-height: 1920px;
+  }
+
+  p.faqtt{
+    font-size: 60px;
+    line-height:72px;
+  }
+
+  div.panel-body{
+    font-size: 45px;
+    line-height: 54px;
+  }
+
+  .faqq{
+    margin-bottom: 46px;
+  }
+
+  
+  div.flt{
+    margin: 22px 430px;
+    float: none;
+  }
+
+
+  div.home-title{
+    margin-top: 147px;
+  }
+
+  h1#click_end{
+    font-size: 80px;
+    line-height: 96px;
+  }
+
+
+  h2#which_side {
+      margin-top: 48px;
+      font-size: 50px;
+      line-height: 32.8px;
+  }
+
+  div#home div.ani-div{
+    width: 100%;
+    display: block;
+  }
+
+
+
+  div#bg1{
+    margin-top:20px;
+  }
+
+  
+  div#lhd{
+    width: 579px;
+    height: 700px;
+  }
+
+  div#rhd{
+    width: 585px;
+    height: 680px;
+  }
+
+  button#home_meat_bt {
+    margin-top: 343px;
+    left:120%;
+  }
+
+  button#home_ani_bt {
+    right: 120%;
+    margin-top: 273px;
+  }
+
+
+  button.mybtn {
+      padding-top: 30px;
+      padding-bottom: 37px;
+      font-size: 50px;
+      line-height: 60px;
+  }
+ 
+  
+}
+
+
+
+@media (max-width: 780px){
+
+
+  div.site-content{
+      min-height: 1386px;
+    }
+
+
+
+  .logo{
+    width: 90px;
+    height: 100px;
+    margin-top: 44px;
+    margin-left: 44px;
+  }
+
+  h1#click_end{
+    font-size: 55px;
+    line-height: 64px;
+  }
+
+  h2#which_side{
+    margin-top: 32px;
+    font-size:30px;
+    line-height: 32.8px;
+  }
+
+  p.cont1{
+    font-size: 36px;
+    line-height: 39.53px;
+    margin-bottom: 41px;
+  }
+
+  h1.cont2{
+    font-size: 118px;
+    line-height: 108px;
+    margin-left: 32px;
+  }
+
+
+  p.cont3{
+    font-size:36px;
+    line-height: 43.2px;
+    margin-top:42px;
+    margin-bottom:61px;
+  }
+
+  p.cont4{
+    font-size:43px;
+    line-height: 52px;
+  }
+
+  p.cont5{
+    font-size:18px;
+    line-height: 20px;
+  }
+
+  h1.cont6{
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom:49px;
+  }
+
+  
+
+
+  p.cont7{
+    font-size: 17px;
+    line-height: 18px;
+  }
+
+
+   form.form1{
+    margin-top:18px;
+    width: 100%;
+  }
+
+
+  .form1> input.dyn-input{
+    font-size: 43px;
+    line-height: 52px;
+    padding-bottom: 10px;
+    margin-bottom: 42px;
+    background:transparent;
+  }
+
+  input[type=submit].form-bt{
+    font-size: 50px;
+    line-height: 60px;
+    padding-top: 39px;
+    padding-bottom: 32px;
+    text-align: center;
+    height: 121px;
+  }
+
+  div.team-row{
+    margin-bottom: 30px;
+  }
+
+   div.team-row > div {
+      width: 49%;
+  }
+
+  div#faq{
+    min-height: 1386px;
+  }
+
+  .faqq{
+    margin-bottom: 30px;
+  }
+  
+  p.faqtt{
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  
+  div.panel-body {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+
+
+  div.copyright{
+    margin: 5px 150px;
+    float: none;
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    line-height: 21.6px;
+  }
+
+  div.flt{
+    margin: 22px 280px;
+    float: none;
+  }
+
+  
+
+  div.home-title{
+    margin-top: 98px;
+  }
+
+  h1#click_end{
+    font-size: 54px;
+    line-height: 64px;
+  }
+
+
+  h2#which_side {
+      margin-top: 32px;
+      font-size: 34px;
+      line-height: 25px;
+  }
+
+  div#lhd{
+    width: 418px;
+    height: 505px;
+  }
+
+  div#rhd{
+    width: 421px;
+    height: 490px;
+  }
+
+  button#home_meat_bt {
+    margin-top: 247px;
+    left:120%;
+  }
+
+  button#home_ani_bt {
+    right: 120%;
+    margin-top: 197px;
+  }
+
+   button.mybtn {
+      padding-top: 20px;
+      padding-bottom: 24px;
+      font-size: 30px;
+      line-height: 34px;
+  }
+
+  div.hd{
+    background-size: 400px 470px;
+  }
+
+}
+
+@media (max-width: 571px){
+
+
+
+  div.site-content{
+      min-height: 1000px;
+  }
+
+  .container{
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .logo{
+    margin-left: 6%;
+    width: 70px;
+    height: 75px;
+    margin-top: 33px;
+  }
+
+  .container-fluid{
+    padding-left:0;
+    padding-right:0;
+    margin-left: 7%;
+  }
+
+  h1#click_end{
+    font-size: 50px;
+    line-height: 52px;
+  }
+
+  h2#which_side{
+    margin-top: 20px;
+    font-size:23px;
+    line-height: 24px;
+  }
+
+   p.cont1{
+    font-size: 22px;
+    line-height: 25px;
+    margin-bottom: 26px;
+  }
+
+  h1.cont2{
+    font-size: 65px;
+    line-height: 67px;
+    margin-left: 18px;
+  }
+
+  div#meat2 h1.cont2{
+    margin-left: 7.5px;
+  }
+
+
+  p.cont3{
+    font-size:26px;
+    line-height: 30px;
+    margin-top:25px;
+    margin-bottom:40px;
+  }
+
+  p.cont4{
+    font-size:30px;
+    line-height: 36px;
+  }
+
+  p.cont5{
+    font-size:22.5px;
+    line-height: 24px;
+  }
+
+
+  h1.cont6{
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom:36px;
+  }
+
+  p.cont7{
+    font-size: 22.5px;
+    line-height: 24px;
+  }
+
+
+  form.form1{
+    margin-top:15px;
+  }
+
+
+  .form1> input.dyn-input{
+    font-size: 30px;
+    line-height: 36px;
+    padding-bottom: 7.5px;
+    margin-bottom: 30px;
+  }
+
+  input[type=submit].form-bt{
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    height: 100px;
+  }
+
+  div.team-row{
+    margin-bottom: 30px;
+  }
+
+  div.team-row > div {
+      width: 100%;
+  }
+
+  div.content-faq{
+    margin-left: 0;
+  }
+
+  div.content3 {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  p.faqtt{
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  div.panel-body {
+    font-size: 22.5px;
+    line-height: 27px;
+  }
+
+  .faqq{
+    margin-bottom: 24px;
+  }
+
+  footer{
+    height: 130px;
+    margin-top: -130px;
+  }
+
+  div.copyright{
+    margin: 15px 45px;
+    float: none;
+    font-size: 27px;
+    text-align: left;
+    color: #ffffff;
+    line-height: 30px;
+  }
+
+  div.flt{
+    margin: 15px 150px;
+    float: none;
+  }
+
+  img.fltimg{
+    margin:0;
+  }
+
+  div#help{
+    height: 1226px;
+  }
+
+  div.home-title{
+    margin-top: 15px;
+  }
+
+  h1#click_end{
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+
+  h2#which_side {
+      margin-top: 12px;
+      font-size: 25px;
+      line-height: 19.5px;
+  }
+
+  div#lhd{
+    width: 253px;
+    height: 300px;
+  }
+
+  div#rhd{
+    width: 256px;
+    height: 300px;
+  }
+
+  button#home_meat_bt {
+    margin-top: 184px;
+    left:110%;
+  }
+
+  button#home_ani_bt {
+    right: 110%;
+    margin-top: 150px;
+  }
+
+  div.hd{
+    background-size: 210px 238px;
+    margin-bottom: 4.5px;
+  }
+
+  div#home{
+    min-height: 800px;
+  }
+
+  div#home .container-fluid{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10.5px;
+  }
+   
+  button.mybtn {
+      padding-top: 15px;
+      padding-bottom: 18px;
+      font-size: 22.5px;
+      line-height: 25px;
+      width: 60%;
+  }
+
+}
+
+
+
+
+
+@media (max-width: 440px){
+
+
+
+  div.site-content{
+      min-height: 990px;
+  }
+
+  
+  .container{
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .logo{
+    margin-left: 6%;
+    width: 49px;
+    height: 55px;
+    margin-top: 24px;
+  }
+
+  .container-fluid{
+    padding-left:0;
+    padding-right:0;
+    margin-left: 7%;
+  }
+
+  h1#click_end{
+    font-size: 38px;
+    line-height: 44px;
+  }
+
+  h2#which_side{
+    margin-top: 17px;
+    font-size:20px;
+    line-height: 22px;
+  }
+
+   p.cont1{
+    font-size: 19px;
+    line-height: 21px;
+    margin-bottom: 22px;
+  }
+
+  h1.cont2{
+    font-size: 60px;
+    line-height: 65px;
+    margin-left: 12px;
+  }
+
+  div#meat2 h1.cont2{
+    margin-left: 7px;
+  }
+
+
+  p.cont3{
+    font-size:19px;
+    line-height: 21px;
+    margin-top:21px;
+    margin-bottom:30px;
+  }
+
+  p.cont4{
+    font-size:22px;
+    line-height: 26px;
+  }
+
+  p.cont5{
+    font-size:16px;
+    line-height: 17px;
+  }
+
+
+  h1.cont6{
+    font-size: 36px;
+    line-height: 45px;
+    margin-bottom:27px;
+  }
+
+  p.cont7{
+    font-size: 16px;
+    line-height: 17px;
+  }
+
+
+  form.form1{
+    margin-top:11px;
+  }
+
+
+  .form1> input.dyn-input{
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 6px;
+    margin-bottom: 22px;
+  }
+
+  input[type=submit].form-bt{
+    font-size: 26px;
+    line-height: 31px;
+    padding-top: 22px;
+    padding-bottom: 17px;
+    height: 70px;
+  }
+
+  div.team-row{
+    margin-bottom: 22px;
+  }
+
+  div.team-row > div {
+      width: 100%;
+  }
+
+  div.content-faq{
+    margin-left: 0;
+  }
+
+  div.content3 {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  p.faqtt{
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  div.panel-body {
+    font-size: 16px;
+    line-height: 19.8px;
+  }
+
+  .faqq{
+    margin-bottom: 17.6px;
+  }
+
+  footer{
+    height: 110px;
+    margin-top: -110px;
+  }
+
+  div.copyright{
+    margin: 11px 33px;
+    float: none;
+    font-size: 20px;
+    text-align: left;
+    color: #ffffff;
+    line-height: 24px;
+  }
+
+  div.flt{
+    margin: 11px 110px;
+    float: none;
+  }
+
+  img.fltimg{
+    margin:0;
+  }
+
+  div#help{
+    height: 900px;
+  }
+
+  div.home-title{
+    margin-top: 11px;
+  }
+
+  h1#click_end{
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+
+  h2#which_side {
+      margin-top: 9px;
+      font-size: 19px;
+      line-height: 14px;
+  }
+
+  div#lhd{
+    width: 186px;
+    height: 220px;
+  }
+
+  div#rhd{
+    width: 188px;
+    height: 218px;
+  }
+
+  button#home_meat_bt {
+    margin-top: 124px;
+    left:110%;
+  }
+
+  button#home_ani_bt {
+    right: 110%;
+    margin-top: 99px;
+  }
+
+  div.hd{
+    background-size: 160px 174px;
+    margin-bottom: 3.5px;
+  }
+
+  div#home{
+    min-height: 660px;
+  }
+
+  div#home .container-fluid{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 8px;
+  }
+   
+  button.mybtn {
+      padding-top: 11px;
+      padding-bottom: 13px;
+      font-size: 16px;
+      line-height: 18px;
+      width: 60%;
+  }
+
+}
+
+
+
+
+
+
+@media (max-width: 380px){
+
+
+
+  div.site-content{
+      min-height: 900px;
+  }
+
+
+  .container{
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+
+  .logo{
+    margin-left: 6%;
+    width: 45px;
+    height: 50px;
+    margin-top: 22px;
+  }
+
+  .container-fluid{
+    padding-left:0;
+    padding-right:0;
+    margin-left: 7%;
+  }
+
+  h1#click_end{
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  h2#which_side{
+    margin-top: 16px;
+    font-size:18px;
+    line-height: 20px;
+  }
+
+   p.cont1{
+    font-size: 17px;
+    line-height: 19px;
+    margin-bottom: 20px;
+  }
+
+  h1.cont2{
+    font-size: 55px;
+    line-height: 50px;
+    margin-left: 12px;
+  }
+
+  div#meat2 h1.cont2{
+    margin-left: 5px;
+  }
+
+
+  p.cont3{
+    font-size:17px;
+    line-height: 20px;
+    margin-top:19px;
+    margin-bottom:28px;
+  }
+
+  p.cont4{
+    font-size:20px;
+    line-height: 24px;
+  }
+
+  p.cont5{
+    font-size:15px;
+    line-height: 16px;
+  }
+
+
+  h1.cont6{
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom:24px;
+  }
+
+  p.cont7{
+    font-size: 15px;
+    line-height: 16px;
+  }
+
+
+  form.form1{
+    margin-top:10px;
+  }
+
+
+  .form1> input.dyn-input{
+    font-size: 20px;
+    line-height: 24px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+  }
+
+  input[type=submit].form-bt{
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    height: 60px;
+  }
+
+  div.team-row{
+    margin-bottom: 20px;
+  }
+
+  div.team-row > div {
+      width: 100%;
+  }
+
+  div.content-faq{
+    margin-left: 0;
+  }
+
+  div.content3 {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  p.faqtt{
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  div.panel-body {
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .faqq{
+    margin-bottom: 16px;
+  }
+
+  footer{
+    height: 100px;
+    margin-top: -100px;
+  }
+
+  div.copyright{
+    margin: 10px 30px;
+    float: none;
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+    line-height: 21.6px;
+  }
+
+  div.flt{
+    margin: 10px 100px;
+    float: none;
+  }
+
+  img.fltimg{
+    margin:0;
+  }
+
+  div#help{
+    height: 817px;
+  }
+
+  div.home-title{
+    margin-top: 10px;
+  }
+
+  h1#click_end{
+    font-size: 27px;
+    line-height: 32px;
+  }
+
+
+  h2#which_side {
+      margin-top: 8px;
+      font-size: 17px;
+      line-height: 13px;
+  }
+
+  div#lhd{
+    width: 169px;
+    height: 204px;
+  }
+
+  div#rhd{
+    width: 171px;
+    height: 198px;
+  }
+
+  button#home_meat_bt {
+    margin-top: 124px;
+    left:110%;
+  }
+
+  button#home_ani_bt {
+    right: 110%;
+    margin-top: 99px;
+  }
+
+  div.hd{
+    background-size: 146px 158px;
+    margin-bottom: 3px;
+  }
+
+  div#home{
+    min-height: 600px;
+  }
+
+  div#home .container-fluid{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 7px;
+  }
+   
+  button.mybtn {
+      padding-top: 10px;
+      padding-bottom: 12px;
+      font-size: 15px;
+      line-height: 17px;
+      width: 60%;
+  }
+
+}
